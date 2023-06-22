@@ -1,0 +1,86 @@
+h2 {
+  font-family: sans-serif;
+  text-align: center
+}
+
+textarea {
+  -moz-appearance: none;
+  resize: none;
+  outline: none;
+  font-size: 21px;
+  font-family: sans-serif;	
+  width: 512px;
+  height: 128px;
+  border: 1px solid #999;
+  overflow: auto;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_send__circle {
+  display: flex;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  justify-content: center;
+  align-items: center;
+  margin-left: -68px;
+  margin-bottom: -75px;
+}
+
+.btn_update__circle {
+  display: flex;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.title__block {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  right: 12em;
+}
+
+.card__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn_card__content {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    left: 416px;
+    bottom: 331px;
+}
+
+.card__content {
+  box-sizing: border-box;
+  border: 1px solid black;
+  width: 384px;
+  height: 300px;
+  font-size: 21px;
+  font-family: sans-serif;	
+  overflow: auto;
+  margin: 15px 25px;
+  font-size: 18px;
+  padding: 12px 12px;
+}
